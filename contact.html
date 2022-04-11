@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contact</title>
+    <link rel="stylesheet" href="css/style.css"><!--Link the CSS file-->
 </head>
 <body>
     <h1>My Contact Details</h1>
     <p>Email: popoposhui@hotmail.com</p>
 <hr>
     <form action="mailto:popoposhui@hotmail.com" method="post" enctype="test/plain"></form>
-        <label for="">Your Name: </label>
-        <input type="text" name="yourName">
-        <input type="color"><br>
+        <label for="colorWell">Your Name: </label>
+        <input type="text" name="yourName" for="colorWell">
+        <input type="color" id="colorWell"><br>
         <label for="">Your Email: </label>
         <input type="email" name="yourEmail" value=""><br>
         <label for="">Leave Your Message Below:</label><br>
         <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit">
+        <input type="submit" value="Submit"><br><br>
+        <button onclick="window.location.href='index.html'">Back to Home Page</button>
+        
 </body>
 </html>
